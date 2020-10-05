@@ -3,28 +3,28 @@
 ### Work with (php-fpm7.1, Nginx,  Mysql5.7.*, docker)
 
 - Clone your fork into the ~/Sites/laravel folder
-`git clone git@github.com:esetnod32-russia/eset-lumen.git.`
+ `git clone git@github.com:esetnod32-russia/eset-lumen.git.`
 
 - Install Docker on the local machine (Windows - https://docs.docker.com/compose/install/) for (MacOs - https://docs.docker.com/compose/install/) for (Linux - https://docs.docker.com/compose/install/)
 
 - Move to 
-`cd eset-laravel` 
-
- Then running the following command 
-`сp .env.example .env` 
-
- If it works on successfully, running following command 
-`composer install`
+ `cd eset-laravel` 
 
 - Then running the following command 
-`docker-compose` 
+ `сp .env.example .env` 
 
- If doesn't work on `docker-compose` check your local Docker else running the following command 
+- If it works on successfully, running following command 
+ `composer install`
+
+- Then running the following command 
+ `docker-compose` 
+
+- If doesn't work on `docker-compose` check your local Docker else running the following command 
  `docker-compose up -d` 
  
- If is ok, running the following command
+- If is ok, running the following command
  `docker ps` 
- You should see three Docker containers, it means You are on your way xxD
+- You should see three Docker containers, it means You are on your way xxD
 
 - Then running the migrations `php artisan migrate` 
 
